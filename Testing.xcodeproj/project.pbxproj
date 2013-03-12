@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3DA658716EED7A10048B465 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA658616EED7A10048B465 /* NotificationController.m */; };
 		D3F1F9AA16EE74CC00A87432 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F9A916EE74CC00A87432 /* UIKit.framework */; };
 		D3F1F9AC16EE74CC00A87432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F9AB16EE74CC00A87432 /* Foundation.framework */; };
 		D3F1F9AE16EE74CC00A87432 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F9AD16EE74CC00A87432 /* CoreGraphics.framework */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3DA658516EED7A10048B465 /* NotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationController.h; path = ../NotificationController.h; sourceTree = "<group>"; };
+		D3DA658616EED7A10048B465 /* NotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationController.m; path = ../NotificationController.m; sourceTree = "<group>"; };
 		D3F1F9A616EE74CC00A87432 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F1F9A916EE74CC00A87432 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3F1F9AB16EE74CC00A87432 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -134,6 +137,8 @@
 				D3F1F9B916EE74CC00A87432 /* TestingAppDelegate.m */,
 				D3F1F9C116EE74CD00A87432 /* MainStoryboard_iPhone.storyboard */,
 				D3F1F9C416EE74CD00A87432 /* MainStoryboard_iPad.storyboard */,
+				D3DA658516EED7A10048B465 /* NotificationController.h */,
+				D3DA658616EED7A10048B465 /* NotificationController.m */,
 				D3F1F9C716EE74CD00A87432 /* TestingFirstViewController.h */,
 				D3F1F9C816EE74CD00A87432 /* TestingFirstViewController.m */,
 				D3F1F9CA16EE74CD00A87432 /* first.png */,
@@ -300,6 +305,7 @@
 				D3F1F9BA16EE74CC00A87432 /* TestingAppDelegate.m in Sources */,
 				D3F1F9C916EE74CD00A87432 /* TestingFirstViewController.m in Sources */,
 				D3F1F9D016EE74CD00A87432 /* TestingSecondViewController.m in Sources */,
+				D3DA658716EED7A10048B465 /* NotificationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +496,7 @@
 				D3F1F9EE16EE74CD00A87432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3F1F9EF16EE74CD00A87432 /* Build configuration list for PBXNativeTarget "TestingTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +505,7 @@
 				D3F1F9F116EE74CD00A87432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
