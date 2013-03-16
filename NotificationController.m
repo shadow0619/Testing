@@ -33,5 +33,17 @@
     UIApplication *app = [UIApplication sharedApplication];
     [app scheduleLocalNotification:localNot];
 }
+-(void) popMeAt:(NSString*)msg:(NSDate*)whenTo
+{
+    UILocalNotification *localNot = [[UILocalNotification alloc] init];
+    [localNot setAlertBody: msg];
+    [localNot setFireDate:(whenTo)];
+    //[localNot setFireDate:[NSDate dateWithTimeIntervalSinceNow:secs]];
+    [localNot setTimeZone:[NSTimeZone defaultTimeZone]];
+    [localNot setAlertAction: @"View"];
+    //localNot.alertBody = @"THIS IS MY FIRST NOTIFY - HELLO WORLD";
+    UIApplication *app = [UIApplication sharedApplication];
+    [app scheduleLocalNotification:localNot];
+}
 
 @end

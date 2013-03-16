@@ -12,5 +12,6 @@
 
 - (void) popMe:(NSString*)msg;
 - (void) popMe:(NSString*)msg: (NSTimeInterval)secs;
+- (void) popMeAt:(NSString*)msg: (NSDate*)whenTo;
 
 @end

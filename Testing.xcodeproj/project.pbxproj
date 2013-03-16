@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D3DA658716EED7A10048B465 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA658616EED7A10048B465 /* NotificationController.m */; };
+		D3DA659216EFD4260048B465 /* dateTimeNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA659116EFD4260048B465 /* dateTimeNotify.m */; };
+		D3DA659516F0F0E00048B465 /* deleteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DA659416F0F0E00048B465 /* deleteNotification.m */; };
 		D3F1F9AA16EE74CC00A87432 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F9A916EE74CC00A87432 /* UIKit.framework */; };
 		D3F1F9AC16EE74CC00A87432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F9AB16EE74CC00A87432 /* Foundation.framework */; };
 		D3F1F9AE16EE74CC00A87432 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F9AD16EE74CC00A87432 /* CoreGraphics.framework */; };
@@ -45,6 +47,10 @@
 /* Begin PBXFileReference section */
 		D3DA658516EED7A10048B465 /* NotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationController.h; path = ../NotificationController.h; sourceTree = "<group>"; };
 		D3DA658616EED7A10048B465 /* NotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationController.m; path = ../NotificationController.m; sourceTree = "<group>"; };
+		D3DA659016EFD4260048B465 /* dateTimeNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dateTimeNotify.h; sourceTree = "<group>"; };
+		D3DA659116EFD4260048B465 /* dateTimeNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateTimeNotify.m; sourceTree = "<group>"; };
+		D3DA659316F0F0E00048B465 /* deleteNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deleteNotification.h; sourceTree = "<group>"; };
+		D3DA659416F0F0E00048B465 /* deleteNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deleteNotification.m; sourceTree = "<group>"; };
 		D3F1F9A616EE74CC00A87432 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F1F9A916EE74CC00A87432 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D3F1F9AB16EE74CC00A87432 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -136,6 +142,10 @@
 				D3F1F9B816EE74CC00A87432 /* TestingAppDelegate.h */,
 				D3F1F9B916EE74CC00A87432 /* TestingAppDelegate.m */,
 				D3F1F9C116EE74CD00A87432 /* MainStoryboard_iPhone.storyboard */,
+				D3DA659016EFD4260048B465 /* dateTimeNotify.h */,
+				D3DA659116EFD4260048B465 /* dateTimeNotify.m */,
+				D3DA659316F0F0E00048B465 /* deleteNotification.h */,
+				D3DA659416F0F0E00048B465 /* deleteNotification.m */,
 				D3F1F9C416EE74CD00A87432 /* MainStoryboard_iPad.storyboard */,
 				D3DA658516EED7A10048B465 /* NotificationController.h */,
 				D3DA658616EED7A10048B465 /* NotificationController.m */,
@@ -306,6 +316,8 @@
 				D3F1F9C916EE74CD00A87432 /* TestingFirstViewController.m in Sources */,
 				D3F1F9D016EE74CD00A87432 /* TestingSecondViewController.m in Sources */,
 				D3DA658716EED7A10048B465 /* NotificationController.m in Sources */,
+				D3DA659216EFD4260048B465 /* dateTimeNotify.m in Sources */,
+				D3DA659516F0F0E00048B465 /* deleteNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
